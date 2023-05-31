@@ -32,24 +32,32 @@
         font-style:normal;
         margin:1rem 0;
       }
+      .right-align{
+        text-align: right;
+      }
+      .bold{
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
-    <h2>    Dr. Eleanor Gaye </h2>
-<p>Awesome Science faculty<br>
+    <h2> class="right-align">Dr. Eleanor Gaye </h2>
+    <address class="right-align">
+Awesome Science faculty<br>
 University of Awesome<br>
 Bobtown, CA 99999,<br>
 USA<br>
-Tel: 123-456-7890<br>
-  Email: no_reply@example.com</p>
+      <span> class="bold">Tel:</span> 123-456-7890<br>
+      <span class="bold">Email: </span> no_reply@example.com
+    </address>
 
     <p>20 January 2016</p>
-
-Miss Eileen Dover
-4321 Cliff Top Edge
-Dover, CT9 XXX
+<address>
+Miss Eileen Dover<br>
+4321 Cliff Top Edge<br>
+Dover, CT9 XXX<br>
 UK
-
+  </adress>
 
     <h1>Re: Eileen Dover university application</h1>
 
@@ -60,14 +68,15 @@ UK
 <h2>Starting dates</h2>
 
 <p>We are happy to accommodate you starting your study with us at any time, however it would suit us better if you could start at the beginning of a semester; the start dates for each one are as follows:</p>
-
-First semester: 9 September 2016
-Second semester: 15 January 2017
-Third semester: 2 May 2017
-
+<ul>
+    <li>First semester: 9 September 2016</li>
+    <li>Second semester: 15 January 2017</li>
+    <li>Third semester: 2 May 2017</li>
+    </ul>
+    
     <p>Please let me know if this is ok, and if so which start date you would prefer.</p>
 
-    <p>You can find more information about important university dates on our website.</p>
+    <p>You can find more information about<a href="http://example.com">important university dates</a> on our website.</p>
 
 
     <h2>Subjects of study</h2>
@@ -86,21 +95,35 @@ Third semester: 2 May 2017
 
 <p>Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:</p>
 
-    <ol>
-<li>Polynesian chicken dance
-A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".
-<li>Icelandic brownian shuffle
-Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.
-<li>Arctic robot dance
-An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.
-    </ol>
+<ol>
+  <li>
+    <h3>Polynesian chicken dance</h3>
+    <p class="indent">A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".</p>
+  </li>
+  <li>
+    <h3>Icelandic brownian shuffle</h3>
+    <p class="indent">Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.</p>
+  </li>
+  <li>
+    <h3>Arctic robot dance</h3>
+    <p class="indent">An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on, however, it was discovered that they were just moving like this because they were really cold.</p>
+  </li>
+</ol>
+
+<style>
+  .indent {
+    text-indent: 1em;
+  }
+</style>
+
     
-    <p>For more of my research, see my exotic dance research page.</p>
+    <p>For more of my research, see my<a href="http://example.com">exotic dance research page</a>.</p>
 
 <p>Yours sincerely,<br>
-  Dr Eleanor Gaye</p>
+  Dr Eleanor Gaye<br></p>
+    
 
-    <p>University of Awesome motto: "Be awesome to each other." -- Bill S Preston, Esq</p>
+    <p>University of Awesome motto: "Be awesome to each other." -- <em>Bill S Preston, Esq</em></p>
     
   </body>
 </html>
