@@ -3,29 +3,185 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="John Durham">
+        <meta name="author" content="Rocio A">
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
 
         <!-- Wrap the top-level heading in a header element -->
-        
+        <header>
             <h1>Planets Data</h1>
-        
+        </header>
         <!-- Add a main element to contain the table -->
-            
+        <main>   
             <!-- Add the table element. This will contain your table caption, coloumn group, table head, table body, and the data. -->
-                
+            <table>    
                 <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
-        
-                Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
-        
+                <caption>
+                Data about the planets of our solar system (Planetary 
+                facts taken from <a 
+                href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">
+                Nasa's Planetary Fact Sheet - Metric</a>).
+                </caption>
                 <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
-                    
+                <colgroup>
+                    <col title="Column 1">
+                    <col title="Column 2">
+                    <col title="Column 3">
+                    <col title="Column 4">
+                    <col title="Column 5">
+                    <col title="Column 6">
+                    <col title="Column 7">
+                    <col title="Column 8">
+                    <col title="Column 9">
+                    <col title="Column 10">
+                    <col title="Column 11">
+                    <col title="Column 12">
+                </colgroup>
                 <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
-                
+                <thead>
+                    <tr>
+                        <th scope="col">Header 1</tr>
+                        <th scope="col">Header 1</tr>
+                        <th scope="col">Header 3</tr>
+                        <th scope="col">Header 4</tr>
+                        <th scope="col">Header 5</tr>
+                        <th scope="col">Header 6</tr>
+                        <th scope="col">Header 7</tr>
+                        <th scope="col">Header 8</tr>
+                        <th scope="col">Header 9</tr>
+                        <th scope="col">Header 10</tr>
+                        <th scope="col">Header 11</tr>
+                        <th scope="col">Header 12</tr>
+                    </tr>
+                    <t/head>
                 <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
-                    
+                <tbody>
+                    <tr>
+                        <th scope = "row">Row Header 1</th>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td>
+                    </tr>
+                    <tr>
+                        <th scope = "row">Row Header 2</th>
+                        <td colspan="3">Spanned Data 1-3</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td>
+                    </tr>
+                    <tr>
+                        <th scope = "row">Row Header 3</th>
+                        <td>Data 1</td>
+                        <td rowspan="2">Spanned Data 2-3</td>
+                        <td rowspan="2">Spanned Data 2-3</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td>    
+                    </tr>
+                    <tr>
+                        <th scope="row">Row Header 4</th>
+                        <td>Data 1</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td>  
+                    </tr>
+                    <tr>
+                        <th scope="row">Row Header 5</th>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td> 
+                    </tr>
+                    <tr>
+                        <th scope="row">Row Header 6</th>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td> 
+                    </tr>
+                    <tr>
+                        <th scope="row">Row Header 7</th>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td> 
+                    </tr>
+                    <tr>
+                        <th scope="row">Row Header8</th>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td> 
+                    </tr>
+                    <tr>
+                        <th scope="row">Row Header 9</th>
+                        <td>Data 1</td>
+                        <td>Data 2</td>
+                        <td>Data 3</td>
+                        <td>Data 4</td>
+                        <td>Data 5</td>
+                        <td>Data 6</td>
+                        <td>Data 7</td>
+                        <td>Data 8</td>
+                        <td>Data 9</td>
+                        <td>Data 10</td>
+                        <td>Data 11</td> 
+                    </tr>
+                        </tbody>
+                    </table>
+                </main>
                 <!-- Please note that you do NOT need to add a table footer for this assignment. -->
     </body>
 </html>
