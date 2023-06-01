@@ -78,42 +78,128 @@ header, footer {
 
 
 /* Imported Typfaces */
-
+@font-face{
+    font-family:Montserrat;
+    src: url(../fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+@font-face{
+    font-family:Josefinslab;
+    src: url(../fonts/josefinslab-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
 
 
 
 
 /* Typography Styles */
+html {
+    font-family: Montserrat, Arial, sans-serif; 
+}
 
+h1{
+    font-family: Josefinslab, Arial, sans-serif;
+    letter-spacing: 2rem;
+    font-size: 60px;
+    margin: 18rem 0;
+    text-align: center;
+    
+}
 
+h2{
+    font-family: Josefinslab, Arial, sans-serif;
+    letter-spacing: 2rem;
+    font-size: 24px;
+}
 
+h2 + p{
+    text-indent: 24rem;
+}
 
+p,
+li{
+    font-size: 12px;
+    letter-spacing: 0.5rem;
+    word-spacing: 2rem;
+    
+}
 
+figcaption {
+    font-size: 12px;
+    margin-bottom: 32rem;
+}
 
 /* Link Styling */
+a{
+    outline: none;
+}
 
-
-
-
-
+a:link,
+a:visited {
+    color: #33658A;
+}
+    
+a:focus,
+a:hover {
+    text-decoration: none;
+}
 
 /* List Styling */
 
+ul,
 
+ol{
+    margin: 16rem 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
+ul{
+    list-style-type: square
+}
+ol{
+    list-style-type: lower-alpha;
+}
 
-
+.long-list a:hover {
+    text-transform: uppercase;
+}
 
 /* Navigation Menu */
 
+nav {
+    padding-left: 0;
+    margin-top: 4rem;
+}
 
+nav a {
+    text-decoration:none;
+    display: inline-block; 
+    width: 100%;
+    line-height: 3; 
+    text-align: center; 
+    font-size: 18px; 
+    margin-bottom: 24rem;
+    border: 1px solid #33658A;
+}
 
+nav a:focus,
+nav a:hover {
+    color: #FFF;
+    background-color: #33658A;
+}
 
-
-
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
 /* Footer Styles */
 
-
+footer {
+    text-align: center;
+}
 
 
 
