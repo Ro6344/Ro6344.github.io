@@ -91,9 +91,6 @@ header, footer {
     font-style:normal;
 }
 
-
-
-
 /* Typography Styles */
 html {
     font-family: Montserrat, Arial, sans-serif; 
@@ -110,7 +107,7 @@ h1{
 
 h2{
     font-family: Josefinslab, Arial, sans-serif;
-    font-size: 0.75rem;
+    font-size: 1.5rem;
     letter-spacing: 0.125rem;
     word-spacing:0.125rem;
     text-indent: 1.5rem;;
