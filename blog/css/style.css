@@ -110,3 +110,18 @@ html {
 .subsection figcaption {
     text-align: center;
 }
+
+.image-container{
+        display: felx; 
+        flex-direction:row;
+        align-items: center;
+        justify-content:flex-end;
+        margin-bottom:20px; 
+}
+.image-container figure{
+        margin-right: 10px;
+}       
+.image-container img{
+        max-width: 100%;
+        height: auto;
+}
