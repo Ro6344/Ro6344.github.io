@@ -93,7 +93,20 @@ html {
     clear: both;
 }
 
-.main-section article {
-    overflow: auto;
+.subsection figure {
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
 }
 
+.subsection figure:last-child {
+    margin-right: 0;
+}
+
+.subsection img {
+    max-width: 100%;
+    height: auto;
+}
+
+.subsection figcaption {
+    text-align: center;
+}
