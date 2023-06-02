@@ -63,21 +63,37 @@
     font-weight:normal;
 }
 html {
-    font-size:16px;
-}
-.article-image{
- float:left;
- margin-right: 20px; 
+    font-size: 16px;
 }
 
-.main-section::after{
-        content:"";
-        display:table;
-        clear:both;       
+.article-image {
+    float: left;
+    margin-right: 20px;
 }
+
+.main-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .subsection {
-        display: flex;
-        justify-content: space-between;
-        
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section p {
+    margin: 0;
+}
+
+.main-section::after,
+.main-section article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-section article {
+    overflow: auto;
 }
 
