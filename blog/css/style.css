@@ -110,53 +110,6 @@ html {
 .subsection figcaption {
     text-align: center;
 }
-.main-section {
-  display: flex;
-}
-
-article {
-  flex: 1;
-}
-
-aside {
-  width: 150px; /* Adjust the width as needed */
-  position: relative;
-}
-
-.image-container {
-  position: sticky;
-  top: 0;
-  right: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.image-container img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px; /* Add some margin between images */
-}
-
-.image-container p:last-child {
-  margin-bottom: 0; /* Remove margin bottom from the last paragraph */
-}
-
-/* Add a new CSS rule for figures */
-figure {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 0;
-  padding: 0;
-  width: 150px; /* Adjust the width as needed */
-  text-align: center;
-}
-
-.subsection {
-  float: left;
-  width: calc(100% - 300px); /* Subtract the width of aside from the subsection */
-}
 
 
 
