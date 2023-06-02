@@ -153,5 +153,11 @@ figure {
   text-align: center;
 }
 
+.subsection {
+  float: left;
+  width: calc(100% - 300px); /* Subtract the width of aside from the subsection */
+}
+
+
 
 
