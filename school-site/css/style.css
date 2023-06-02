@@ -101,7 +101,7 @@ html {
 
 h1{
     font-family: Josefinslab, Arial, sans-serif;
-    letter-spacing: 2rem;
+    letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
@@ -111,20 +111,20 @@ h1{
 h2{
     font-family: Josefinslab, Arial, sans-serif;
     font-size: 0.75rem;
-    letter-spacing: 2rem;
+    letter-spacing: 0.125rem;
     word-spacing:0.125rem;
     text-indent: 1.5rem;;
 }
 
 h2 + p{
-    text-indent: 24rem;
+    text-indent: 1.5rem;
 }
 
 p,
 li{
     font-size: 12px;
-    letter-spacing: 0.5rem;
-    word-spacing:0.03125rem;
+    letter-spacing: 0.03125rem;
+    word-spacing:0.125remrem;
     
 }
 
