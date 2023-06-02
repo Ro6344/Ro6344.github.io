@@ -111,6 +111,28 @@ html {
     text-align: center;
 }
 
+/* Add a new class to style the stacked images */
+.stacked-images {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add a new class to style the paragraphs */
+.stacked-paragraphs {
+  margin-left: 10px;
+}
+
+/* Add a new class to style the separation bar */
+.separation-bar {
+  border-left: 1px solid #000;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+/* Adjust the width of the images in the stacked layout */
+.stacked-images img {
+  max-width: 100 px;
+}
 
 
 
