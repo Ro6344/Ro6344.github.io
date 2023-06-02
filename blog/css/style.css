@@ -73,4 +73,9 @@ html {
 .main-section p{
  clear:left;       
 }
+.subsection {
+        display: flex;
+        justify-content: space-between;
+        
+}
 
