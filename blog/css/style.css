@@ -47,5 +47,30 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
+/* Imported Typeface Files */
 
+@font-face {
+    font-family:Sans-Serif;
+    src: url(../fonts/lato-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+@font-face {
+
+    font-family:Serif;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+html {
+    font-size:16px;
+}
+.article-image{
+ float:left;
+ margin-right: 20px; 
+}
+
+.main-section p{
+ clear:left;       
+}
 
